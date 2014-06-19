@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Redirecting...</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Alcides Queiroz">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <style>
+    html, body{
+      height: 100%;
+      margin: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+    }
+
+    body {
+      align-items: center;
+      background-color: #FEE;
+      display: flex;
+      justify-content: center;
+    }
+
+    .redirecting-message {
+      color: #655;
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      text-shadow: 0 0 0.1rem #544;
+    }
+  </style>
+</head>
+<body>
+  <div class="redirecting-message">You will be redirected to my new technical blog... =)</div>
+  <script>
+    setTimeout(() => location.href = 'https://www.medium.com/@alcidesqueiroz', 2000);
+  </script>
+</body>
+</html>
